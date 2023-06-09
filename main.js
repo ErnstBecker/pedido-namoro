@@ -8,16 +8,16 @@ function entrar(){
     estado++
     if (estado == 0){
         sim.style.transform="translate(+95px)"
-        nao.style.transform="translate(350px, -350px)"
+        nao.style.transform="translate(130px, -150px)"
     }
     if (estado == 1){
-        nao.style.transform="translate(350px, +250px)"
+        nao.style.transform="translate(130px, +150px)"
     }
     if (estado == 2){
-        nao.style.transform="translate(-550px, +250px)"
+        nao.style.transform="translate(-325px, +150px)"
     }
     if (estado == 3){
-        nao.style.transform="translate(-550px, -350px)"
+        nao.style.transform="translate(-325px, -150px)"
     }
     if (estado == 4){
         nao.style.transform="translate(+135px, +150px)"
