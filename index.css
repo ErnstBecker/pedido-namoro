@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+    color: #111;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+a{
+    text-decoration: 0;
+    color: #111;
+}
+
+#conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#area{
+    width: 550px;
+    height: 390px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.page{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.option{
+    height: 90px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    font-size: 35px;
+    border-radius: 15px;
+    transition: all .5s;
+    box-shadow: 1px 3px 3px 2px rgba(1, 1, 1, .5);
+    cursor: pointer;
+}
+
+.optionYes{
+    background-color: rgb(18, 216, 18);
+}
+
+.optionNo{
+    background-color: rgb(223, 20, 20);
+}
